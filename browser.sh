@@ -41,7 +41,7 @@ install_chromium() {
         echo "Chromium installed successfully."
         IP=$(hostname -I | awk '{print $1}')
         echo " "
-        echo "Use browser with http://$IP:3000"
+        echo "Use browser with http://$IP:40000"
     fi
 }
 
@@ -84,7 +84,7 @@ install_firefox() {
         echo "Firefox installed successfully."
         IP=$(hostname -I | awk '{print $1}')
         echo " "
-        echo "Use browser with http://$IP:4000"
+        echo "Use browser with http://$IP:50000"
     fi
 }
 
